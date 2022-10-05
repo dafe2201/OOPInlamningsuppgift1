@@ -113,7 +113,6 @@ public class Greenest {
             builder.append(counter).append(". ").append(plant.getClassNameToReadable()).append(": ")
                     .append(plant.getName()).append("\n\n");
             counter++;
-
         }
         return builder.toString();
     }
